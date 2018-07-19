@@ -1,0 +1,247 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8436109729,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The URL of Git hub",
+            "match": {
+              "location": "ABC.the_URL_of_Git_hub()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "githublogin-feature;login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 115987930,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters ABC as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ABC",
+                  "offset": 12
+                }
+              ],
+              "location": "ABC.user_enters_ShilpaKumareshan_as_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89104433,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters XYZ as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "XYZ",
+                  "offset": 12
+                }
+              ],
+              "location": "ABC.user_enters_Testing123_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 880330066,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on SignIn",
+            "match": {
+              "location": "ABC.user_click_on_SignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28792868,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user navigates to Sign in GitHub",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign in GitHub",
+                  "offset": 18
+                }
+              ],
+              "location": "ABC.user_navigates_to_GitHub(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "GitHubLogin feature",
+    "description": "",
+    "id": "githublogin-feature",
+    "keyword": "Feature",
+    "uri": "skeleton/GitHubLogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7199834722,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The URL of Git hub",
+            "match": {
+              "location": "ABC.the_URL_of_Git_hub()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "githublogin-feature;login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 179269996,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters ShilpaKumareshan as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ShilpaKumareshan",
+                  "offset": 12
+                }
+              ],
+              "location": "ABC.user_enters_ShilpaKumareshan_as_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145673405,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters Testing123 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing123",
+                  "offset": 12
+                }
+              ],
+              "location": "ABC.user_enters_Testing123_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1687137917,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on SignIn",
+            "match": {
+              "location": "ABC.user_click_on_SignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14544926,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat skeleton.ABC.user_navigates_to_GitHub(ABC.java:38)\r\n\tat ✽.Then user navigates to Sign in(skeleton/abc.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "user navigates to Sign in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign in",
+                  "offset": 18
+                }
+              ],
+              "location": "ABC.user_navigates_to_GitHub(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "GitHubLogin feature",
+    "description": "",
+    "id": "githublogin-feature",
+    "keyword": "Feature",
+    "uri": "skeleton/abc.feature"
+  }
+]
