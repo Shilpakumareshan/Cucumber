@@ -1,5 +1,5 @@
 Feature: GitHubLogin feature
-Background:
+Background: 
 
 Given The URL of Git hub
 
@@ -12,4 +12,5 @@ Then user navigates to <result>
 
 Examples:
 |username|password|result|
-|ShilpaKumareshan|Testing123|Sign in|
+|ShilpaKumareshan|Testing123|Git hub|
+|ABC|XYZ|Sign in GitHub|

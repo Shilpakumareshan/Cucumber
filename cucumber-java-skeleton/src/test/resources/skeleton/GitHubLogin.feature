@@ -3,7 +3,7 @@ Background:
 
 Given The URL of Git hub
 
-@Regression
+
 Scenario Outline:Login Scenario
 When user enters <username> as username
 And user enters <password> as password
